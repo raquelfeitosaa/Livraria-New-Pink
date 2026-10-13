@@ -27,7 +27,6 @@ As tecnologias utilizadas serão atualizadas conforme o desenvolvimento do proje
 
 - HTML5
 - CSS3
-- JavaScript
 
 ## ✨ Funcionalidades
 
