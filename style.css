@@ -173,7 +173,7 @@ h1 {
 .div-vendas {
     display: flex;
     flex-direction: column;
-    margin: 0 10%;
+    margin-left: 2%;
     padding: 20px;
 }
 
@@ -185,9 +185,9 @@ h1 {
 
 .div-vendas ol {
     font-family: "Raleway", sans-serif;
-    font-size: 18px;
+    font-size: 15px;
+    margin-left: 30px;
 }
-
 .item-list-vendas {
     padding-left: 3px;
     list-style: none;
@@ -199,7 +199,62 @@ h1 {
     align-items: center;
     margin: 0 auto;
 }
+.img-vendas {
+    border-radius: 15px;
+    box-shadow: 0px 0px 75px #EC9C9D;
+}
+.margin-li {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.svgs {
+    width: 100px;
+    height: auto;
+    top: 60px;
+    animation: balanco 3s infinite;
+}
+.svg1 {
+    margin-left: 7%;
+    rotate: -10deg;
+}
+.svg2 {
+    margin-right: 7%;
+    rotate: 10deg;
+}
+@keyframes balanco {
+    0% {
+        transform: translateY(0);
+    }
 
+    50% {
+        transform: translateY(-25px);
+    }
+
+    100% {
+        transform: translateY(0);
+
+    }
+}
+
+.section-ofertas {
+    width: 100%;
+    background-color: #f5e1e1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.titulo-ofertas {
+    font-family: "DM Serif Text", serif;
+    text-align: center;
+    margin-bottom: 7px;
+    margin-top: 25px;
+}
+.cards-ofertas {
+    border: 1px solid #c5c5b6;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px #533b3cb2;
+    margin: 25px 25px;
+}
 .title-sobre {
     font-family: "DM Serif Text", serif;
     text-align: center;
